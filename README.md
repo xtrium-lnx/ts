@@ -33,6 +33,16 @@ Each header is self-contained. Define the corresponding `_IMPLEMENTATION` macro 
 #include <ts/ts_ecs.h>
 ```
 
+## A fair warning
+
+ts_net, as is, might be a bit wonky. Threads are detached on creation so you have to ensure all connections are closed before exiting.
+Also, Winsock being Winsock, you have to include ts_net.h before anything that might include windows files.
+
+## Note on AI use
+
+All documentation, including parts of this file, has been written by Claude, with slight adjustments by myself.
+While I did generate a small portion of a code through AI, none has been pasted as is, and everything's been proofread (but I'm not foolproof myself).
+
 ## License
 
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
