@@ -41,7 +41,7 @@ Also, Winsock being Winsock, you have to include ts_net.h before anything that m
 ## Note on AI use
 
 All documentation, including parts of this file, has been written by Claude, with slight adjustments by myself.
-While I did generate a small portion of a code through AI, none has been pasted as is, and everything's been proofread (but I'm not foolproof myself).
+While I did generate a small portion of the code through AI, none has been pasted as is, and everything's been proofread (but I'm not foolproof myself).
 
 ## License
 
